@@ -1,23 +1,7 @@
 # Terraform_AWS_Project
 Create infrastructure on AWS using Terraform
 
-User Browser
-     |
-     v
-[ Application Load Balancer (ALB) ]
-     |
-     v
-[ Listener (port 80, HTTP) ]
-     |
-     v
-[ Target Group "mytg" ]
-     |
-     +--> EC2 Instance 1 (web-server-1)
-     +--> EC2 Instance 2 (web-server-2)
-<img width="921" height="358" alt="image" src="https://github.com/user-attachments/assets/1042ab55-16e8-479f-a95f-b1126ea27abf" />
-
-<img width="1083" height="427" alt="image" src="https://github.com/user-attachments/assets/4eee06b2-48c8-445e-af4e-e7e04f377968" />
-
+```
 User Browser
      |
      v
@@ -31,6 +15,10 @@ User Browser
      |
      +--> EC2 Instance 1 (web-server-1) (Welcome to Terraform project)
      +--> EC2 Instance 2 (web-server-2) (Welcome to Thilagas learning)
+```
+<img width="921" height="358" alt="image" src="https://github.com/user-attachments/assets/1042ab55-16e8-479f-a95f-b1126ea27abf" />
+
+<img width="1083" height="427" alt="image" src="https://github.com/user-attachments/assets/4eee06b2-48c8-445e-af4e-e7e04f377968" />
      
 # 1. VPC - 
 Created a virtual private cloud (VPC), which is an isolated network in AWS where all other resources will reside.
